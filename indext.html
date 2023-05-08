@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atou Cunter</title>
+
+    <link rel="stylesheet" href="styel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js">
+   </script>
+
+</head>
+<body>
+
+    <div class="hero">
+        <div class="title">
+            <h1>About Studice</h1>
+            <p>this is about atou counter</p>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="counter-box">
+                    <i class="fa fa-plane"></i>
+                    <h2 class="counter">2023</h2>
+                    <h4>Hot Destination</h4>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="counter-box">
+                <i class="fa fa-users"></i>
+                    <h2 class="counter">202</h2><span>k</span>
+                    <h4>Hppy Destination</h4>
+                    
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="counter-box"> 
+                <i class="fa fa-coffee"></i>
+                <h2 class="counter">023</h2>
+                <h4>Cups of Coffee</h4>
+            </div>
+            </div>
+
+            <div class="col">
+                <div class="counter-box">
+                <i class="fa fa-globe"></i>
+                <h2 class="counter">5523</h2>
+                <h4>Visited Counter</h4>
+            </div>
+          </div>
+    </div>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="jquery.counterup.min.js"></script>
+
+    <script src="code.js"></script>
+
+    <script>
+        jQuery(document).ready(function($){
+            $('.counter').counterUp({
+                  delay: 10,
+                  time: 1000
+
+               });
+        })
+    </script>
+    
+</body>
+</html>
